@@ -72,7 +72,7 @@ class ToDoList extends Component {
   //move item handler
   //const location allows for dynamic changes to the state
   //this time we are moving an item to the other component if its' key matches the clicked item's key
-  //we are doing so by pushing that itme to the corresponding state array
+  //we are doing so by pushing that item to the corresponding state array
   //then set the state and remove item from previous array
   moveItem = (itemKey, isItemInCart) => {
     const location = isItemInCart ? "itemsInCart" : "items";
