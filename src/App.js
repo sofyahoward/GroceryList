@@ -1,9 +1,9 @@
 import React from "react";
-import ToDoList from "./Components/ToDoList/ToDoList.jsx";
+import GroceryList from "./Components/GroceryList/GroceryList.jsx";
 
 const App = () => (
   <div>
-    <ToDoList/>
+    <GroceryList/>
   </div>
 );
 

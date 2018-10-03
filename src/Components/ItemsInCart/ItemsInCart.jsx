@@ -1,8 +1,10 @@
 import React from "react";
 import "./ItemsInCart.css";
 
+//stateless component that renders items currently in cart
 const ItemsInCart = props => {
-
+  // iterate over the state for items in cart
+  //use props to move item on click with ite.key parameter and true for items being currently in cart
   return (
     <div className="CartContainer">
       <div className='title'>Items in Cart</div>
@@ -22,8 +24,6 @@ const ItemsInCart = props => {
     </div>
   );
 };
-
-ItemsInCart.propTypes = {};
 
 export default ItemsInCart;
 

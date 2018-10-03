@@ -1,6 +1,7 @@
 import React from 'react';
-import './ToDoItems.css';
+import './NeedToBuy.css';
 
+//stateless component that renders things you need to buy
 const ToDoItems = props => {
     return (
         <div>
@@ -8,6 +9,8 @@ const ToDoItems = props => {
                 Need To Buy
             </div>
             <ul className="theList">
+                {/* iterate over state through props and return the items in an array */}
+                {/* use props to move item and remove item, pass in two parameters: item.key and false for item being currently in cart */}
                 {props.entries.map((item) => {
                     return (
                         <li key={item.key}>
