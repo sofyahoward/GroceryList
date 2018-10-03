@@ -1,0 +1,33 @@
+.addBtn { 
+    background-color: #8be5cc;
+    color: rgb(37,22,33);
+    width: 70px;
+    height: 30px;
+    display:flex; 
+    flex-direction:row;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 2%;
+
+}
+.addBtn:hover  { 
+    background-color: #8be5cc;
+    color: rgb(37,22,33);
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid rgb(37,22,33);
+}
+.removeBtn {
+    background-color: rgb(255,87,97);
+    color: rgb(37,22,33);
+    width: 70px;
+    height: 30px;
+
+}
+.removeBtn:hover  { 
+    background-color: rgb(255,87,97);
+    color: rgb(37,22,33);
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid rgb(37,22,33);
+}
